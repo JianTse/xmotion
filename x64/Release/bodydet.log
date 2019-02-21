@@ -1,0 +1,74 @@
+﻿生成启动时间为 2018/11/26 14:11:43。
+     1>项目“D:\xmotion\bodydet.vcxproj”在节点 2 上(Build 个目标)。
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(364,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /ID:\xmotion\\include /ID:\xmotion\\src /Zi /nologo /W3 /WX- /O2 /Oi /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Release\\" /Fd"x64\Release\vc120.pdb" /Gd /TP /errorReport:prompt src\detect.cpp src\filter.cpp src\main.cpp src\motionDetection.cpp
+         detect.cpp
+     1>D:\xmotion\include\tzk/opencv.h(232): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+     1>D:\xmotion\include\tzk/opencv.h(242): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+     1>D:\xmotion\include\tzk/opencv.h(243): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+     1>D:\xmotion\include\tzk/opencv.h(269): warning C4305: “参数”: 从“double”到“float”截断
+     1>D:\xmotion\include\tzk/opencv.h(272): warning C4305: “参数”: 从“double”到“float”截断
+     1>d:\xmotion\src\colormap.hpp(23): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+     1>src\detect.cpp(112): warning C4244: “=”: 从“intptr_t”转换到“long”，可能丢失数据
+     1>src\detect.cpp(153): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>src\detect.cpp(212): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+     1>src\detect.cpp(213): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+     1>src\detect.cpp(214): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+     1>src\detect.cpp(215): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+     1>src\detect.cpp(216): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+     1>src\detect.cpp(217): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+     1>src\detect.cpp(218): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+     1>src\detect.cpp(219): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+     1>src\detect.cpp(223): warning C4244: “初始化”: 从“int”转换到“float”，可能丢失数据
+     1>src\detect.cpp(224): warning C4244: “初始化”: 从“int”转换到“float”，可能丢失数据
+     1>src\detect.cpp(229): warning C4244: “初始化”: 从“int”转换到“float”，可能丢失数据
+     1>src\detect.cpp(230): warning C4244: “初始化”: 从“int”转换到“float”，可能丢失数据
+     1>src\detect.cpp(235): warning C4244: “初始化”: 从“int”转换到“float”，可能丢失数据
+     1>src\detect.cpp(236): warning C4244: “初始化”: 从“int”转换到“float”，可能丢失数据
+     1>src\detect.cpp(241): warning C4244: “初始化”: 从“int”转换到“float”，可能丢失数据
+     1>src\detect.cpp(242): warning C4244: “初始化”: 从“int”转换到“float”，可能丢失数据
+     1>src\detect.cpp(324): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+     1>src\detect.cpp(481): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+         filter.cpp
+     1>D:\xmotion\include\tzk/opencv.h(232): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+     1>D:\xmotion\include\tzk/opencv.h(242): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+     1>D:\xmotion\include\tzk/opencv.h(243): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+     1>D:\xmotion\include\tzk/opencv.h(269): warning C4305: “参数”: 从“double”到“float”截断
+     1>D:\xmotion\include\tzk/opencv.h(272): warning C4305: “参数”: 从“double”到“float”截断
+     1>d:\xmotion\src\colormap.hpp(23): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+     1>src\filter.cpp(34): warning C4244: “=”: 从“double”转换到“uchar”，可能丢失数据
+     1>src\filter.cpp(119): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>src\filter.cpp(268): warning C4244: “/=”: 从“double”转换到“float”，可能丢失数据
+     1>src\filter.cpp(310): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+     1>src\filter.cpp(311): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+         main.cpp
+     1>D:\xmotion\include\tzk/opencv.h(232): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+     1>D:\xmotion\include\tzk/opencv.h(242): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+     1>D:\xmotion\include\tzk/opencv.h(243): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+     1>D:\xmotion\include\tzk/opencv.h(269): warning C4305: “参数”: 从“double”到“float”截断
+     1>D:\xmotion\include\tzk/opencv.h(272): warning C4305: “参数”: 从“double”到“float”截断
+     1>d:\xmotion\src\colormap.hpp(23): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+         motionDetection.cpp
+     1>D:\xmotion\include\tzk/opencv.h(232): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+     1>D:\xmotion\include\tzk/opencv.h(242): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+     1>D:\xmotion\include\tzk/opencv.h(243): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+     1>D:\xmotion\include\tzk/opencv.h(269): warning C4305: “参数”: 从“double”到“float”截断
+     1>D:\xmotion\include\tzk/opencv.h(272): warning C4305: “参数”: 从“double”到“float”截断
+     1>src\motionDetection.cpp(39): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\xmotion\\bin\bodydet.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\xmotion\\bin\bodydet.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\xmotion\\bin\bodydet.lib" /MACHINE:X64 x64\Release\cameraCelib.obj
+         x64\Release\colormap.obj
+         x64\Release\detect.obj
+         x64\Release\filter.obj
+         x64\Release\gameCommon.obj
+         x64\Release\main.obj
+         x64\Release\motionDetection.obj
+         正在生成代码
+         已完成代码的生成
+         bodydet.vcxproj -> D:\xmotion\\bin\bodydet.exe
+     1>已完成生成项目“D:\xmotion\bodydet.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:05.94
